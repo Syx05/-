@@ -1,0 +1,347 @@
+.header{
+    width: 100%;
+    height: 98px;
+}
+.header-center{
+    width: 1210px;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 0;
+}
+.header-center .logo{
+    display: inline-block;
+    height: 98px;
+    width: 244px;
+    vertical-align: middle;
+    background-size: 244px 98px;
+    background-repeat: no-repeat;
+    background-image:url(../img/register/5luxlogo\ \(1\).jpg);
+}
+.header-center .header-line{
+    display: inline-block;
+    width: 2px;
+    height: 44px;
+    vertical-align: middle;
+    background-color: #ccc;
+    margin: 0 18px;
+
+}
+.header-center .header-text{
+    display: inline-block;
+    font-size: 22px;
+    color: #999;
+    vertical-align: middle;
+}
+.header-center .header-right{
+    display: table;
+    font-size: 0;
+    height: 100%;
+}
+.fr{
+    float: right;
+}
+.header-center .header-right i{
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    padding-right: 10px;
+    background-image: url(../img/register/phone-logo.png);
+    background-size: 19px 19px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+.header-center .header-right p{
+    display: inline-block;
+    color: #666;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.warpper{
+    width: 100%;
+    text-align: center;
+}
+.warpper .login-center{
+    position: relative;
+    width: 1210px;
+    height: 100%;
+    background-size:100% 584px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-image:url(../img/register/login_background1.jpg);
+}
+.clearfix{
+    display: inline-block;
+    overflow: hidden;
+}
+.warpper .login-center .login-c-right {
+    width: 400px;
+    float: right;
+    margin-right: 40px;
+    padding: 30px 0;
+}
+
+.register-c-right {
+    background: #fff;
+}
+.register-c-right {
+    padding: 0 30px;
+    width: 340px;
+    font-size: 0px;
+}
+.rigister-title {
+    padding: 35px 0;
+    font-size: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #000;
+}
+.inp_style{
+    padding: 0 19px;
+    width: 300px;
+    height: 48px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.inp_style_error{
+    width: 340px;
+    height: 48px;
+    margin: 0 auto;
+    display: none;
+}
+.inp_error{
+    display: block;
+}
+.inp_style_error>i{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-top: 16px;
+    float: left;
+}
+.inp_style_error .bj1{
+    background-image: url(../img/register/close.png);
+}
+.inp_style_error .inp1_error_p{
+    font-size: 14px;
+    line-height: 47px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #f62b0f;
+    float: left;
+}
+.inp2_box{
+    padding-bottom: 16px;
+}
+.inp2_box>input{
+    margin-right: 27px;
+    vertical-align: middle;
+}
+.inp2_box .inp2{
+    padding: 0 19px;
+    width: 142px;
+    height: 48px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+
+}
+.inp2_box #get_phone_button{
+        display: inline-block;
+        vertical-align: middle;
+        width: 130px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        background-color: #f2f2f2;
+        font-size: 14px;
+        cursor: pointer;
+}
+.inp_style_error .bj2{
+    background-image: url(../img/register/tan-log.png);
+}
+.inp_style_error .inp3_error_p{
+    font-size: 14px;
+    height: 47px;
+    line-height: 47px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #999;
+    float: left;
+}
+#sub_btn{
+    transition: all linear 0.5s;
+    width: 340px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    background: #333;
+    margin: 24px 0 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+.rig-bottom {
+    height: 14px;
+    line-height: 14px;
+    padding-bottom: 30px;
+}
+.rig-bottom label {
+    cursor: pointer;
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+    background-image: url(../img/register/is_yes_bg.png);
+    background-repeat: no-repeat;
+    background-size: 14px 14px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.rig-bottom label input {
+    display: none;
+}
+.rig-bottom label>i {
+    display: none;
+    width: 14px;
+    height: 14px;
+    background-repeat: no-repeat;
+    background-size: 14px 14px;
+    background-image: url(../img/register/is_yes.png);
+}
+.rig-bottom p {
+    color: #999;
+}
+.rig-bottom p, .rig-bottom a {
+    display: inline-block;
+    font-size: 13px;
+    height: 14px;
+    line-height: 14px;
+    vertical-align: middle;
+}
+.rig-bottom .fir-link {
+    color: #333;
+}
+.rig-bottom .sec-link {
+    color: #ff9900;
+}
+
+
+
+#footer_message_bg {
+    background: url(../img/register/footer_message_bg.jpg) center;
+    border-top: 1px solid #c9c9c9;
+}
+#footer_message {
+    width: 1210px;
+    height: 600px;
+    margin: 0 auto;
+}
+#footer_message .footer_message_top {
+    height: 116px;
+    border-bottom: 1px solid #c9c9c9;
+    clear: both;
+}
+.footer_message_top li {
+    width: 242px;
+    height: 64px;
+    float: left;
+    margin-top: 26px;
+}
+#footer_message a {
+    color: #333;
+    font-size: 12px;
+}
+.footer_message_top img {
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 5px;
+    cursor: pointer;
+    vertical-align: top;
+    float: left;
+}
+a img {
+    border: none;
+}
+.footer_message_top01_r {
+    display: inline-block;
+    float: left;
+    width: 160px;
+    height: 48px;
+    margin-top: 8px;
+}
+.footer_message_top01_r .p1 {
+    font-weight: bold;
+    font-size: 13px;
+    height: 24px;
+    line-height: 24px;
+}
+.footer_message_top01_r .p2 {
+    font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+}
+#footer_message .footer_message_ctr {
+    height: 283px;
+    clear: both;
+}
+.footer_message_ctr_l {
+    float: left;
+}
+.footer_message_ctr_l li {
+    width: 185px;
+    overflow: hidden;
+    float: left;
+}
+.footer_message_ctr_l .sp01 {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 13px;
+}
+.footer_message_ctr_l span {
+    display: block;
+    height: 24px;
+    line-height: 24px;
+}
+.footer_message_ctr_l .pht_app {
+    width: 140px;
+    height: 283px;
+}
+.footer_message_ctr_l .pht_weibo {
+    width: 125px;
+    height: 283px;
+}
+
+#footer_message .footer_message_btm {
+    text-align: center;
+    color: #fff;
+}
+.footer_message_btm_t {
+    line-height: 66px;
+}
+#footer_message .footer_message_btm a {
+    color: #fff;
+}
+.footer_message_btm_b {
+    margin-top: 23px;
+}
+.describe{
+    height: 24px;
+    line-height: 24px;
+    font-size: 13px;
+}
+input{
+    outline : none;
+}
+#sub_btn .shade{
+    transition : 1.5ms ;
+}

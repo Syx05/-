@@ -1,0 +1,395 @@
+.header{
+    width: 100%;
+    height: 98px;
+}
+.header-center{
+    width: 1210px;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 0;
+}
+.header-center .logo{
+    display: inline-block;
+    height: 98px;
+    width: 244px;
+    vertical-align: middle;
+    background-size: 244px 98px;
+    background-repeat: no-repeat;
+    background-image:url(../img/register/5luxlogo\ \(1\).jpg);
+}
+.header-center .header-line{
+    display: inline-block;
+    width: 2px;
+    height: 44px;
+    vertical-align: middle;
+    background-color: #ccc;
+    margin: 0 18px;
+
+}
+.header-center .header-text{
+    display: inline-block;
+    font-size: 22px;
+    color: #999;
+    vertical-align: middle;
+}
+.header-center .header-right{
+    display: table;
+    font-size: 0;
+    height: 100%;
+}
+.fr{
+    float: right;
+}
+.header-center .header-right i{
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    padding-right: 10px;
+    background-image: url(../img/register/phone-logo.png);
+    background-size: 19px 19px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+.header-center .header-right p{
+    display: inline-block;
+    color: #666;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.warpper{
+    width: 100%;
+    text-align: center;
+}
+.warpper .login-center{
+    position: relative;
+    width: 1210px;
+    height: 100%;
+    background-size:100% 584px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding: 30px 0;
+    background-image:url(../img/register/login_background1.jpg);
+}
+.clearfix{
+    display: inline-block;
+    overflow: hidden;
+}
+.warpper .login-center .login-c-right {
+    width: 400px;
+    float: right;
+    margin-right: 40px;
+    padding: 30px 0;
+    background: #fff;
+}
+.login-c-right .log-title {
+    margin: 0 20px;
+    margin-top: 34px;
+    font-size: 20px;
+    line-height: 20px;
+    height: 20px;
+    color: #999;
+}
+.login-c-right .log-title .log-title-list {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    width: 49%;
+    text-align: center;
+    cursor: pointer;
+}
+.fl {
+    float: left;
+}
+.login-c-right .log-title .list-active {
+    color: #000;
+}
+.login-c-right .log-title .log-title-list {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    width: 49%;
+    text-align: center;
+    cursor: pointer;
+}
+.fr {
+    float: right;
+}
+.log-body {
+    width: 100%;
+    height: 380px;
+}
+.log-body .is-hook {
+    height: 100%;
+}
+.log-body .is_user #submit {
+    padding-top: 20px;
+}
+.log-body .is_user #submit .inp-hook {
+    display: block;
+    margin: 0 31px;
+    margin-top: 16px;
+    width: 296px;
+    height: 48px;
+    border: 1px solid #CCC;
+    padding: 0 20px;
+    font-size: 14px;
+}
+input {
+    outline: none;
+    box-shadow: none;
+}
+.log-body .is_user #submit .error-tip {
+    width: 338px;
+    margin: 0 31px;
+    height: 54px;
+}
+.log-body .is_user #submit .error-tip .error-tip-wp {
+    font-size: 0;
+    display: inline-block;
+    color: #f62b0f;
+    height: 14px;
+    line-height: 14px;
+    margin: 20px 0;
+
+}
+.error-tip .error-tip-wp .tip-logo {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-image: url(/vendor/images/5lux/login/new/close.png);
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+.error-tip .error-tip-wp .tip-text {
+    height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    display: inline-block;
+    *zoom: 1;
+    *display: block;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.sub-btn {
+    transition: all linear 0.5s;
+    display: inline-block;
+    width: 338px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    background: #333;
+    margin: 0 31px;
+    text-decoration: none;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+.sub-bottom {
+    margin: 0 31px;
+    margin-top: 20px;
+    height: 14px;
+    line-height: 14px;
+    font-size: 0;
+    color: #999;
+}
+.sub-bottom .sub-bottom-left label {
+    display: inline-block;
+    vertical-align: middle;
+    width: 14px;
+    height: 14px;
+    background-image: url(../img/login/is_yes_bg.png);
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.sub-bottom .sub-bottom-left label i {
+    display: none;
+    width: 14px;
+    height: 14px;
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+    background-image: url(../img/register/is_yes.png);
+}
+.sub-bottom .sub-bottom-left p {
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.sub-bottom .sub-bottom-right {
+    height: 100%;
+    font-size: 14px;
+}
+.sub-bottom .sub-bottom-right a {
+    color: inherit;
+    text-decoration: none;
+}
+.sub-bottom .sub-bottom-right a {
+    color: inherit;
+    text-decoration: none;
+}
+.other-type {
+    height: 16px;
+    width: 100%;
+    background: url(../img/login/other-type.jpg) 100% 100% no-repeat;
+}
+.is_ot {
+    height: 74px;
+    position: relative;
+    margin: 0 94px;
+}
+.ul-hook {
+    position: absolute;
+    width: 100%;
+    height: 32px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.is_ot .li-hook {
+    height: 32px;
+    width: 33.333333333%;
+    float: left;
+    text-align: center;
+}
+.is_ot .li-hook i {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 32px 32px;
+    cursor: pointer;
+}
+.is_ot .li-hook .is_wx {
+    background-image: url(../img/login/is_wx.png);
+}
+.is_ot .li-hook .is_qq {
+    background-image: url(../img/login/is_qq.png);
+}
+.is_ot .li-hook .is_wb {
+    background-image: url(../img/login/is_wb.png);
+}
+
+
+
+
+
+
+
+
+
+#footer_message_bg {
+    background: url(../img/register/footer_message_bg.jpg) center;
+    border-top: 1px solid #c9c9c9;
+}
+#footer_message {
+    width: 1210px;
+    height: 600px;
+    margin: 0 auto;
+}
+#footer_message .footer_message_top {
+    height: 116px;
+    border-bottom: 1px solid #c9c9c9;
+    clear: both;
+}
+.footer_message_top li {
+    width: 242px;
+    height: 64px;
+    float: left;
+    margin-top: 26px;
+}
+#footer_message a {
+    color: #333;
+    font-size: 12px;
+}
+.footer_message_top img {
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 5px;
+    cursor: pointer;
+    vertical-align: top;
+    float: left;
+}
+a img {
+    border: none;
+}
+.footer_message_top01_r {
+    display: inline-block;
+    float: left;
+    width: 160px;
+    height: 48px;
+    margin-top: 8px;
+}
+.footer_message_top01_r .p1 {
+    font-weight: bold;
+    font-size: 13px;
+    height: 24px;
+    line-height: 24px;
+}
+.footer_message_top01_r .p2 {
+    font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+}
+#footer_message .footer_message_ctr {
+    height: 283px;
+    clear: both;
+}
+.footer_message_ctr_l {
+    float: left;
+}
+.footer_message_ctr_l li {
+    width: 185px;
+    overflow: hidden;
+    float: left;
+}
+.footer_message_ctr_l .sp01 {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 13px;
+}
+.footer_message_ctr_l span {
+    display: block;
+    height: 24px;
+    line-height: 24px;
+}
+.footer_message_ctr_l .pht_app {
+    width: 140px;
+    height: 283px;
+}
+.footer_message_ctr_l .pht_weibo {
+    width: 125px;
+    height: 283px;
+}
+
+#footer_message .footer_message_btm {
+    text-align: center;
+    color: #fff;
+}
+.footer_message_btm_t {
+    line-height: 66px;
+}
+#footer_message .footer_message_btm a {
+    color: #fff;
+}
+.footer_message_btm_b {
+    margin-top: 23px;
+}
+.describe{
+    height: 24px;
+    line-height: 24px;
+    font-size: 13px;
+}
+input{
+    outline : none;
+}
+#sub_btn .shade{
+    transition : 1.5ms ;
+}
